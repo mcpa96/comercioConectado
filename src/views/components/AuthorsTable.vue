@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header pb-0">
-      <h6>Authors table</h6>
+      <h6>Clientes</h6>
     </div>
     <div class="card-body px-0 pt-0 pb-2">
       <div class="table-responsive p-0">
@@ -11,22 +11,22 @@
               <th
                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
               >
-                Author
+               Cliente
               </th>
               <th
                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
               >
-                Function
+                Sucursal
               </th>
               <th
                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
               >
-                Status
+                Estado
               </th>
               <th
                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
               >
-                Employed
+                Fecha Creacion
               </th>
               <th class="text-secondary opacity-7"></th>
             </tr>
@@ -37,15 +37,15 @@
                 <div class="d-flex px-2 py-1">
                   <div>
                     <img
-                      src="../../assets/img/team-2.jpg"
+                      src="../../assets/img/team1.jpg"
                       class="avatar avatar-sm me-3"
                       alt="user1"
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">John Michael</h6>
+                    <h6 class="mb-0 text-sm">Laura Ramírez</h6>
                     <p class="text-xs text-secondary mb-0">
-                      john@creative-tim.com
+                      laura.ramirez@example.com
                     </p>
                   </div>
                 </div>
@@ -55,7 +55,7 @@
                 <p class="text-xs text-secondary mb-0">Organization</p>
               </td>
               <td class="align-middle text-center text-sm">
-                <span class="badge badge-sm bg-gradient-success">Online</span>
+                <span class="badge badge-sm bg-gradient-success">Activo</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold"
@@ -67,8 +67,8 @@
                   href="javascript:;"
                   class="text-secondary font-weight-bold text-xs"
                   data-toggle="tooltip"
-                  data-original-title="Edit user"
-                  >Edit</a
+                  data-original-title="Editar user"
+                  >Editar</a
                 >
               </td>
             </tr>
@@ -77,15 +77,15 @@
                 <div class="d-flex px-2 py-1">
                   <div>
                     <img
-                      src="../../assets/img/team-3.jpg"
+                      src="../../assets/img/team2.jpg"
                       class="avatar avatar-sm me-3"
                       alt="user2"
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Alexa Liras</h6>
+                    <h6 class="mb-0 text-sm">Andrés González</h6>
                     <p class="text-xs text-secondary mb-0">
-                      alexa@creative-tim.com
+                      andres.gonzalez@example.com
                     </p>
                   </div>
                 </div>
@@ -96,7 +96,7 @@
               </td>
               <td class="align-middle text-center text-sm">
                 <span class="badge badge-sm bg-gradient-secondary"
-                  >Offline</span
+                  >Inactivo</span
                 >
               </td>
               <td class="align-middle text-center">
@@ -109,8 +109,8 @@
                   href="javascript:;"
                   class="text-secondary font-weight-bold text-xs"
                   data-toggle="tooltip"
-                  data-original-title="Edit user"
-                  >Edit</a
+                  data-original-title="Editar user"
+                  >Editar</a
                 >
               </td>
             </tr>
@@ -119,15 +119,15 @@
                 <div class="d-flex px-2 py-1">
                   <div>
                     <img
-                      src="../../assets/img/team-4.jpg"
+                      src="../../assets/img/team3.jpg"
                       class="avatar avatar-sm me-3"
                       alt="user3"
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Laurent Perrier</h6>
+                    <h6 class="mb-0 text-sm">Camila Herrera</h6>
                     <p class="text-xs text-secondary mb-0">
-                      laurent@creative-tim.com
+                      camila.herrera@example.com
                     </p>
                   </div>
                 </div>
@@ -137,7 +137,7 @@
                 <p class="text-xs text-secondary mb-0">Projects</p>
               </td>
               <td class="align-middle text-center text-sm">
-                <span class="badge badge-sm bg-gradient-success">Online</span>
+                <span class="badge badge-sm bg-gradient-success">Activo</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold"
@@ -149,8 +149,8 @@
                   href="javascript:;"
                   class="text-secondary font-weight-bold text-xs"
                   data-toggle="tooltip"
-                  data-original-title="Edit user"
-                  >Edit</a
+                  data-original-title="Editar user"
+                  >Editar</a
                 >
               </td>
             </tr>
@@ -159,15 +159,15 @@
                 <div class="d-flex px-2 py-1">
                   <div>
                     <img
-                      src="../../assets/img/team-3.jpg"
+                      src="../../assets/img/team4.jpg"
                       class="avatar avatar-sm me-3"
                       alt="user4"
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Michael Levi</h6>
+                    <h6 class="mb-0 text-sm">Sebastián Morales</h6>
                     <p class="text-xs text-secondary mb-0">
-                      michael@creative-tim.com
+                      sebastian.morales@example.com
                     </p>
                   </div>
                 </div>
@@ -177,7 +177,7 @@
                 <p class="text-xs text-secondary mb-0">Developer</p>
               </td>
               <td class="align-middle text-center text-sm">
-                <span class="badge badge-sm bg-gradient-success">Online</span>
+                <span class="badge badge-sm bg-gradient-success">Activo</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold"
@@ -189,8 +189,8 @@
                   href="javascript:;"
                   class="text-secondary font-weight-bold text-xs"
                   data-toggle="tooltip"
-                  data-original-title="Edit user"
-                  >Edit</a
+                  data-original-title="Editar user"
+                  >Editar</a
                 >
               </td>
             </tr>
@@ -199,15 +199,15 @@
                 <div class="d-flex px-2 py-1">
                   <div>
                     <img
-                      src="../../assets/img/team-2.jpg"
+                      src="../../assets/img/team5.jpg"
                       class="avatar avatar-sm me-3"
                       alt="user5"
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Richard Gran</h6>
+                    <h6 class="mb-0 text-sm">Valentina Ríos</h6>
                     <p class="text-xs text-secondary mb-0">
-                      richard@creative-tim.com
+                      valentina.rios@example.com
                     </p>
                   </div>
                 </div>
@@ -218,7 +218,7 @@
               </td>
               <td class="align-middle text-center text-sm">
                 <span class="badge badge-sm bg-gradient-secondary"
-                  >Offline</span
+                  >Inactivo</span
                 >
               </td>
               <td class="align-middle text-center">
@@ -231,8 +231,8 @@
                   href="javascript:;"
                   class="text-secondary font-weight-bold text-xs"
                   data-toggle="tooltip"
-                  data-original-title="Edit user"
-                  >Edit</a
+                  data-original-title="Editar user"
+                  >Editar</a
                 >
               </td>
             </tr>
@@ -241,15 +241,15 @@
                 <div class="d-flex px-2 py-1">
                   <div>
                     <img
-                      src="../../assets/img/team-4.jpg"
+                      src="../../assets/img/team6.png"
                       class="avatar avatar-sm me-3"
                       alt="user6"
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Miriam Eric</h6>
+                    <h6 class="mb-0 text-sm">Paola Trejos</h6>
                     <p class="text-xs text-secondary mb-0">
-                      miriam@creative-tim.com
+                      paola.trejos@example.com
                     </p>
                   </div>
                 </div>
@@ -260,7 +260,7 @@
               </td>
               <td class="align-middle text-center text-sm">
                 <span class="badge badge-sm bg-gradient-secondary"
-                  >Offline</span
+                  >Inactivo</span
                 >
               </td>
               <td class="align-middle text-center">
@@ -273,8 +273,8 @@
                   href="javascript:;"
                   class="text-secondary font-weight-bold text-xs"
                   data-toggle="tooltip"
-                  data-original-title="Edit user"
-                  >Edit</a
+                  data-original-title="Editar user"
+                  >Editar</a
                 >
               </td>
             </tr>

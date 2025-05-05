@@ -6,12 +6,12 @@ import ArgonButton from "@/components/ArgonButton.vue";
     <div class="card-header pb-0 p-3">
       <div class="row">
         <div class="col-6 d-flex align-items-center">
-          <h6 class="mb-0">Payment Method</h6>
+          <h6 class="mb-0">Método de pago</h6>
         </div>
         <div class="col-6 text-end">
           <argon-button color="dark" variant="gradient">
             <i class="fas fa-plus me-2"></i>
-            Add New Card
+            Agregar nueva tarjeta
           </argon-button>
         </div>
       </div>
@@ -39,7 +39,7 @@ import ArgonButton from "@/components/ArgonButton.vue";
               data-bs-original-title="Edit Card"
               aria-label="Edit Card"
             ></i>
-            <span class="sr-only">Edit Card</span>
+            <span class="sr-only">Editar tarjeta</span>
           </div>
         </div>
         <div class="col-md-6">
@@ -63,7 +63,7 @@ import ArgonButton from "@/components/ArgonButton.vue";
               data-bs-original-title="Edit Card"
               aria-label="Edit Card"
             ></i>
-            <span class="sr-only">Edit Card</span>
+            <span class="sr-only">Editar tarjeta</span>
           </div>
         </div>
       </div>

@@ -6,11 +6,11 @@ import ArgonButton from "@/components/ArgonButton.vue";
     <div class="card-header pb-0 p-3">
       <div class="row">
         <div class="col-6 d-flex align-items-center">
-          <h6 class="mb-0">Invoices</h6>
+          <h6 class="mb-0">Facturas</h6>
         </div>
         <div class="col-6 text-end">
           <argon-button color="success" size="sm" variant="outline"
-            >View All</argon-button
+            >Ver todo</argon-button
           >
         </div>
       </div>
@@ -22,12 +22,12 @@ import ArgonButton from "@/components/ArgonButton.vue";
         >
           <div class="d-flex flex-column">
             <h6 class="mb-1 text-dark font-weight-bold text-sm">
-              March, 01, 2020
+              1 de marzo de 2025
             </h6>
             <span class="text-xs">#MS-415646</span>
           </div>
           <div class="d-flex align-items-center text-sm">
-            $180
+            $180.000
             <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4">
               <i class="fas fa-file-pdf text-lg me-1" aria-hidden="true"></i>
               PDF
@@ -39,12 +39,12 @@ import ArgonButton from "@/components/ArgonButton.vue";
         >
           <div class="d-flex flex-column">
             <h6 class="text-dark mb-1 font-weight-bold text-sm">
-              February, 10, 2021
+              10 de febrero de 2025
             </h6>
             <span class="text-xs">#RV-126749</span>
           </div>
           <div class="d-flex align-items-center text-sm">
-            $250
+            $250.000
             <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4">
               <i class="fas fa-file-pdf text-lg me-1" aria-hidden="true"></i>
               PDF
@@ -56,12 +56,12 @@ import ArgonButton from "@/components/ArgonButton.vue";
         >
           <div class="d-flex flex-column">
             <h6 class="text-dark mb-1 font-weight-bold text-sm">
-              April, 05, 2020
+              5 de abril de 2025
             </h6>
             <span class="text-xs">#FB-212562</span>
           </div>
           <div class="d-flex align-items-center text-sm">
-            $560
+            $5.600.000
             <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4">
               <i class="fas fa-file-pdf text-lg me-1" aria-hidden="true"></i>
               PDF
@@ -73,12 +73,12 @@ import ArgonButton from "@/components/ArgonButton.vue";
         >
           <div class="d-flex flex-column">
             <h6 class="text-dark mb-1 font-weight-bold text-sm">
-              June, 25, 2019
+              25 de junio de 2025
             </h6>
             <span class="text-xs">#QW-103578</span>
           </div>
           <div class="d-flex align-items-center text-sm">
-            $120
+            $1.200.000
             <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4">
               <i class="fas fa-file-pdf text-lg me-1" aria-hidden="true"></i>
               PDF
@@ -90,12 +90,12 @@ import ArgonButton from "@/components/ArgonButton.vue";
         >
           <div class="d-flex flex-column">
             <h6 class="text-dark mb-1 font-weight-bold text-sm">
-              March, 01, 2019
+              1 de marzo de 2025
             </h6>
             <span class="text-xs">#AR-803481</span>
           </div>
           <div class="d-flex align-items-center text-sm">
-            $300
+            $300.000
             <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4">
               <i class="fas fa-file-pdf text-lg me-1" aria-hidden="true"></i>
               PDF

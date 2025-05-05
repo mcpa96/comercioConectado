@@ -6,17 +6,17 @@ import ArgonButton from "@/components/ArgonButton.vue";
     <div class="card-header pb-0 px-3">
       <div class="row">
         <div class="col-md-6">
-          <h6 class="mb-0">Your Transaction's</h6>
+          <h6 class="mb-0">Transacción</h6>
         </div>
         <div class="col-md-6 d-flex justify-content-end align-items-center">
           <i class="far fa-calendar-alt me-2" aria-hidden="true"></i>
-          <small>23 - 30 March 2020</small>
+          <small>23 - 30 Marzo 2025</small>
         </div>
       </div>
     </div>
     <div class="card-body pt-4 p-3">
       <h6 class="text-uppercase text-body text-xs font-weight-bolder mb-3">
-        Newest
+        Reciente
       </h6>
       <ul class="list-group">
         <li
@@ -32,8 +32,8 @@ import ArgonButton from "@/components/ArgonButton.vue";
               <i class="fas fa-arrow-down" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
-              <h6 class="mb-1 text-dark text-sm">Netflix</h6>
-              <span class="text-xs">27 March 2020, at 12:30 PM</span>
+              <h6 class="mb-1 text-dark text-sm">Venta 1</h6>
+              <span class="text-xs">27 Marzo 2025,  12:30 PM</span>
             </div>
           </div>
           <div
@@ -55,8 +55,8 @@ import ArgonButton from "@/components/ArgonButton.vue";
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
-              <h6 class="mb-1 text-dark text-sm">Apple</h6>
-              <span class="text-xs">27 March 2020, at 04:30 AM</span>
+              <h6 class="mb-1 text-dark text-sm">Venta 2</h6>
+              <span class="text-xs">27 Marzo 2025,  04:30 AM</span>
             </div>
           </div>
           <div
@@ -67,7 +67,7 @@ import ArgonButton from "@/components/ArgonButton.vue";
         </li>
       </ul>
       <h6 class="text-uppercase text-body text-xs font-weight-bolder my-3">
-        Yesterday
+        Ayer
       </h6>
       <ul class="list-group">
         <li
@@ -83,8 +83,8 @@ import ArgonButton from "@/components/ArgonButton.vue";
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
-              <h6 class="mb-1 text-dark text-sm">Stripe</h6>
-              <span class="text-xs">26 March 2020, at 13:45 PM</span>
+              <h6 class="mb-1 text-dark text-sm">producto 1</h6>
+              <span class="text-xs">26 Marzo 2025, 13:45 PM</span>
             </div>
           </div>
           <div
@@ -106,8 +106,8 @@ import ArgonButton from "@/components/ArgonButton.vue";
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
-              <h6 class="mb-1 text-dark text-sm">HubSpot</h6>
-              <span class="text-xs">26 March 2020, at 12:30 PM</span>
+              <h6 class="mb-1 text-dark text-sm">producto 2</h6>
+              <span class="text-xs">26 Marzo 2025, 12:30 PM</span>
             </div>
           </div>
           <div
@@ -129,8 +129,8 @@ import ArgonButton from "@/components/ArgonButton.vue";
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
-              <h6 class="mb-1 text-dark text-sm">Creative Tim</h6>
-              <span class="text-xs">26 March 2020, at 08:30 AM</span>
+              <h6 class="mb-1 text-dark text-sm">Producto 3</h6>
+              <span class="text-xs">26 Marzo 2025, 08:30 AM</span>
             </div>
           </div>
           <div
@@ -152,14 +152,14 @@ import ArgonButton from "@/components/ArgonButton.vue";
               <i class="fas fa-exclamation" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
-              <h6 class="mb-1 text-dark text-sm">Webflow</h6>
-              <span class="text-xs">26 March 2020, at 05:00 AM</span>
+              <h6 class="mb-1 text-dark text-sm">Flujo web</h6>
+              <span class="text-xs">26 Marzo 2025, 05:00 AM</span>
             </div>
           </div>
           <div
             class="d-flex align-items-center text-dark text-sm font-weight-bold"
           >
-            Pending
+            Pendiente
           </div>
         </li>
       </ul>

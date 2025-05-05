@@ -19,7 +19,7 @@ const currentDirectory = computed(() => {
 });
 
 const minimizeSidebar = () => store.commit("sidebarMinimize");
-const toggleConfigurator = () => store.commit("toggleConfigurator");
+
 
 const closeMenu = () => {
   setTimeout(() => {
@@ -57,22 +57,11 @@ const closeMenu = () => {
             <input
               type="text"
               class="form-control"
-              :placeholder="isRTL ? 'أكتب هنا...' : 'Type here...'"
+              :placeholder="isRTL ? 'أكتب هنا...' : 'Buscar...'"
             />
           </div>
         </div>
         <ul class="navbar-nav justify-content-end">
-          <li class="nav-item d-flex align-items-center">
-            <router-link
-              :to="{ name: 'Signin' }"
-              class="px-0 nav-link font-weight-bold text-white"
-              target="_blank"
-            >
-              <i class="fa fa-user" :class="isRTL ? 'ms-sm-2' : 'me-sm-2'"></i>
-              <span v-if="isRTL" class="d-sm-inline d-none">يسجل دخول</span>
-              <span v-else class="d-sm-inline d-none">Sign In</span>
-            </router-link>
-          </li>
           <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
             <a
               href="#"
@@ -85,11 +74,6 @@ const closeMenu = () => {
                 <i class="sidenav-toggler-line bg-white"></i>
                 <i class="sidenav-toggler-line bg-white"></i>
               </div>
-            </a>
-          </li>
-          <li class="px-3 nav-item d-flex align-items-center">
-            <a class="p-0 nav-link text-white" @click="toggleConfigurator">
-              <i class="cursor-pointer fa fa-cog fixed-plugin-button-nav"></i>
             </a>
           </li>
           <li
@@ -125,12 +109,12 @@ const closeMenu = () => {
                     </div>
                     <div class="d-flex flex-column justify-content-center">
                       <h6 class="mb-1 text-sm font-weight-normal">
-                        <span class="font-weight-bold">New message</span> from
-                        Laur
+                        <span class="font-weight-bold">Nuevo Mensaje</span> de Persona 1
+                        
                       </h6>
                       <p class="mb-0 text-xs text-secondary">
                         <i class="fa fa-clock me-1"></i>
-                        13 minutes ago
+                        hace 13 minutos 
                       </p>
                     </div>
                   </div>
@@ -148,12 +132,12 @@ const closeMenu = () => {
                     </div>
                     <div class="d-flex flex-column justify-content-center">
                       <h6 class="mb-1 text-sm font-weight-normal">
-                        <span class="font-weight-bold">New album</span> by
-                        Travis Scott
+                        <span class="font-weight-bold">Cambio Inventario</span> por Persona 2
+                        
                       </h6>
                       <p class="mb-0 text-xs text-secondary">
                         <i class="fa fa-clock me-1"></i>
-                        1 day
+                        hace 1 dia
                       </p>
                     </div>
                   </div>
@@ -204,11 +188,11 @@ const closeMenu = () => {
                     </div>
                     <div class="d-flex flex-column justify-content-center">
                       <h6 class="mb-1 text-sm font-weight-normal">
-                        Payment successfully completed
+                        Programacion Reunion con clientes
                       </h6>
                       <p class="mb-0 text-xs text-secondary">
                         <i class="fa fa-clock me-1"></i>
-                        2 days
+                        en 2 dias 
                       </p>
                     </div>
                   </div>

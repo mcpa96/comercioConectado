@@ -2,8 +2,8 @@
 import { onBeforeUnmount, onBeforeMount } from "vue";
 import { useStore } from "vuex";
 
-import Navbar from "@/examples/PageLayout/Navbar.vue";
-import AppFooter from "@/examples/PageLayout/Footer.vue";
+
+
 import ArgonInput from "@/components/ArgonInput.vue";
 import ArgonCheckbox from "@/components/ArgonCheckbox.vue";
 import ArgonButton from "@/components/ArgonButton.vue";
@@ -45,10 +45,9 @@ onBeforeUnmount(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-5 text-center mx-auto">
-            <h1 class="text-white mb-2 mt-5">Welcome!</h1>
+            <h1 class="text-white mb-2 mt-5">Bienvenido!</h1>
             <p class="text-lead text-white">
-              Use these awesome forms to login or create new account in your
-              project for free.
+              Para iniciar al comercion conetaco por favor registre sus datos para obtenr usuario y contraseña 
             </p>
           </div>
         </div>
@@ -59,7 +58,7 @@ onBeforeUnmount(() => {
         <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
           <div class="card z-index-0">
             <div class="card-header text-center pt-4">
-              <h5>Register with</h5>
+              <h5>Regístrate con</h5>
             </div>
             <div class="row px-xl-5 px-sm-4 px-3">
               <div class="col-3 ms-auto px-1">
@@ -174,26 +173,26 @@ onBeforeUnmount(() => {
                 <argon-input
                   id="name"
                   type="text"
-                  placeholder="Name"
+                  placeholder="Nombre"
                   aria-label="Name"
                 />
                 <argon-input
                   id="email"
                   type="email"
-                  placeholder="Email"
+                  placeholder="Correo electronico"
                   aria-label="Email"
                 />
                 <argon-input
                   id="password"
                   type="password"
-                  placeholder="Password"
+                  placeholder="Contraseña"
                   aria-label="Password"
                 />
                 <argon-checkbox checked>
                   <label class="form-check-label" for="flexCheckDefault">
-                    I agree the
+                    Acepto los 
                     <a href="javascript:;" class="text-dark font-weight-bolder"
-                      >Terms and Conditions</a
+                      >Términos y Condiciones</a
                     >
                   </label>
                 </argon-checkbox>
@@ -203,13 +202,13 @@ onBeforeUnmount(() => {
                     color="dark"
                     variant="gradient"
                     class="my-4 mb-2"
-                    >Sign up</argon-button
+                    >Registrarse</argon-button
                   >
                 </div>
                 <p class="text-sm mt-3 mb-0">
-                  Already have an account?
+                  ¿Ya tienes una cuenta?
                   <a href="javascript:;" class="text-dark font-weight-bolder"
-                    >Sign in</a
+                    >Iniciar Sesion</a
                   >
                 </p>
               </form>
@@ -219,5 +218,5 @@ onBeforeUnmount(() => {
       </div>
     </div>
   </main>
-  <app-footer />
+  
 </template>

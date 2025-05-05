@@ -22,7 +22,7 @@
         <a
           href="javascript:;"
           class="btn btn-sm btn-info mb-0 d-none d-lg-block"
-          >Connect</a
+          >Contactar</a
         >
         <a
           href="javascript:;"
@@ -33,7 +33,7 @@
         <a
           href="javascript:;"
           class="btn btn-sm btn-dark float-right mb-0 d-none d-lg-block"
-          >Message</a
+          >Mensaje</a
         >
         <a
           href="javascript:;"
@@ -49,33 +49,32 @@
           <div class="d-flex justify-content-center">
             <div class="d-grid text-center">
               <span class="text-lg font-weight-bolder">22</span>
-              <span class="text-sm opacity-8">Friends</span>
+              <span class="text-sm opacity-8">Amigos</span>
             </div>
             <div class="d-grid text-center mx-4">
               <span class="text-lg font-weight-bolder">10</span>
-              <span class="text-sm opacity-8">Photos</span>
+              <span class="text-sm opacity-8">Fotos</span>
             </div>
             <div class="d-grid text-center">
               <span class="text-lg font-weight-bolder">89</span>
-              <span class="text-sm opacity-8">Comments</span>
+              <span class="text-sm opacity-8">Comentarios</span>
             </div>
           </div>
         </div>
       </div>
       <div class="text-center mt-4">
         <h5>
-          Mark Davis
+          Sebastián Morales
           <span class="font-weight-light">, 35</span>
         </h5>
         <div class="h6 font-weight-300">
-          <i class="ni location_pin mr-2"></i>Bucharest, Romania
+          <i class="ni location_pin mr-2"></i>Medellin,Antioquia
         </div>
         <div class="h6 mt-4">
-          <i class="ni business_briefcase-24 mr-2"></i>Solution Manager -
-          Creative Tim Officer
+          <i class="ni business_briefcase-24 mr-2"></i>SAnalista de Datos
         </div>
         <div>
-          <i class="ni education_hat mr-2"></i>University of Computer Science
+          <i class="ni education_hat mr-2"></i>Universidad de Ciencias de la Computación
         </div>
       </div>
     </div>

@@ -22,8 +22,8 @@ import TransactionCard from "./components/TransactionCard.vue";
                     component: 'fas fa-landmark',
                     background: 'bg-gradient-success',
                   }"
-                  title="Salary"
-                  description="Belong Interactive"
+                  title="Salario"
+                  description="Interactivo"
                   value="+$2000"
                 />
               </div>
@@ -34,7 +34,7 @@ import TransactionCard from "./components/TransactionCard.vue";
                     background: 'bg-gradient-success',
                   }"
                   title="Paypal"
-                  description="Freelance Payment"
+                  description="Pago a autónomos"
                   value="$455.00"
                 />
               </div>

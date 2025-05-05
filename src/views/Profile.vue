@@ -52,7 +52,7 @@ onBeforeUnmount(() => {
             <div class="col-auto">
               <div class="avatar avatar-xl position-relative">
                 <img
-                  src="../assets/img/team-1.jpg"
+                  src="../assets/img/team6.png"
                   alt="profile_image"
                   class="shadow-sm w-100 border-radius-lg"
                 />
@@ -60,8 +60,8 @@ onBeforeUnmount(() => {
             </div>
             <div class="col-auto my-auto">
               <div class="h-100">
-                <h5 class="mb-1">Sayo Kravits</h5>
-                <p class="mb-0 font-weight-bold text-sm">Public Relations</p>
+                <h5 class="mb-1">Paola Trejos</h5>
+                <p class="mb-0 font-weight-bold text-sm">Coordinador de Marketing</p>
               </div>
             </div>
             <div
@@ -169,7 +169,7 @@ onBeforeUnmount(() => {
                           </g>
                         </g>
                       </svg>
-                      <span class="ms-1">Messages</span>
+                      <span class="ms-1">Mensajes</span>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -222,7 +222,7 @@ onBeforeUnmount(() => {
                           </g>
                         </g>
                       </svg>
-                      <span class="ms-1">Settings</span>
+                      <span class="ms-1">Ajustes</span>
                     </a>
                   </li>
                 </ul>
@@ -238,46 +238,46 @@ onBeforeUnmount(() => {
           <div class="card">
             <div class="card-header pb-0">
               <div class="d-flex align-items-center">
-                <p class="mb-0">Edit Profile</p>
+                <p class="mb-0">Editar Perfil</p>
                 <argon-button color="success" size="sm" class="ms-auto"
-                  >Settings</argon-button
+                  >Ajustes</argon-button
                 >
               </div>
             </div>
             <div class="card-body">
-              <p class="text-uppercase text-sm">User Information</p>
+              <p class="text-uppercase text-sm">Información de usuario</p>
               <div class="row">
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
-                    >Username</label
+                    >Nombre</label
                   >
                   <argon-input type="text" value="lucky.jesse" />
                 </div>
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
-                    >Email address</label
+                    >Correo electronico</label
                   >
                   <argon-input type="email" value="jesse@example.com" />
                 </div>
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
-                    >First name</label
+                    >Primer Apellido</label
                   >
                   <input class="form-control" type="text" value="Jesse" />
                 </div>
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
-                    >Last name</label
+                    >Segundo Apellido</label
                   >
                   <argon-input type="text" value="Lucky" />
                 </div>
               </div>
               <hr class="horizontal dark" />
-              <p class="text-uppercase text-sm">Contact Information</p>
+              <p class="text-uppercase text-sm">Contacto</p>
               <div class="row">
                 <div class="col-md-12">
                   <label for="example-text-input" class="form-control-label"
-                    >Address</label
+                    >Direccion</label
                   >
                   <argon-input
                     type="text"
@@ -286,29 +286,29 @@ onBeforeUnmount(() => {
                 </div>
                 <div class="col-md-4">
                   <label for="example-text-input" class="form-control-label"
-                    >City</label
+                    >Ciudad</label
                   >
                   <argon-input type="text" value="New York" />
                 </div>
                 <div class="col-md-4">
                   <label for="example-text-input" class="form-control-label"
-                    >Country</label
+                    >Pais</label
                   >
                   <argon-input type="text" value="United States" />
                 </div>
                 <div class="col-md-4">
                   <label for="example-text-input" class="form-control-label"
-                    >Postal code</label
+                    >Codigo Postal</label
                   >
                   <argon-input type="text" value="437300" />
                 </div>
               </div>
               <hr class="horizontal dark" />
-              <p class="text-uppercase text-sm">About me</p>
+              <p class="text-uppercase text-sm">Acerca de mi </p>
               <div class="row">
                 <div class="col-md-12">
                   <label for="example-text-input" class="form-control-label"
-                    >About me</label
+                    ></label
                   >
                   <argon-input
                     type="text"

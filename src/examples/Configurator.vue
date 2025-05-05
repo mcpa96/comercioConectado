@@ -42,7 +42,7 @@ const darkMode = () => {
     <div class="shadow-lg card">
       <div class="pt-3 pb-0 bg-transparent card-header">
         <div class="" :class="isRTL ? 'float-end' : 'float-start'">
-          <h5 class="mt-3 mb-0">Argon Configurator</h5>
+          <h5 class="mt-3 mb-0">Configuracion de Apariencia</h5>
           <p>See our dashboard options.</p>
         </div>
         <div

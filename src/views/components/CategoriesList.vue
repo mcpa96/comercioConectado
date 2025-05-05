@@ -8,7 +8,7 @@ const isRTL = computed(() => store.state.isRTL);
 defineProps({
   title: {
     type: String,
-    default: "Categories",
+    default: "Categorias",
   },
   categories: {
     type: Array,

@@ -11,28 +11,28 @@ import BR from "@/assets/img/icons/flags/BR.png";
 
 const sales = {
   us: {
-    country: "United States",
+    country: "Sede 1",
     sales: 2500,
     value: "$230,900",
     bounce: "29.9%",
     flag: US,
   },
   germany: {
-    country: "Germany",
+    country: "Sede 2",
     sales: "3.900",
     value: "$440,000",
     bounce: "40.22%",
     flag: DE,
   },
   britain: {
-    country: "Great Britain",
+    country: "Sede 3",
     sales: "1.400",
     value: "$190,700",
     bounce: "23.44%",
     flag: GB,
   },
   brasil: {
-    country: "Brasil",
+    country: "Sede 4",
     sales: "562",
     value: "$143,960",
     bounce: "32.14%",
@@ -47,11 +47,11 @@ const sales = {
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="Today's Money"
+              title="Ventas del Dia"
               value="$53,000"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+55%</span> since yesterday"
+                >+55%</span>  ayer"
               :icon="{
                 component: 'ni ni-money-coins',
                 background: 'bg-gradient-primary',
@@ -61,11 +61,11 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="Today's Users"
+              title="Visitas de Usuarios "
               value="2,300"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+3%</span> since last week"
+                >+3%</span> Semana pasada"
               :icon="{
                 component: 'ni ni-world',
                 background: 'bg-gradient-danger',
@@ -75,11 +75,11 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="New Clients"
+              title="Nuevos Clientes Registrados"
               value="+3,462"
               description="<span
                 class='text-sm font-weight-bolder text-danger'
-                >-2%</span> since last quarter"
+                >-2%</span> Ultimo trimeste"
               :icon="{
                 component: 'ni ni-paper-diploma',
                 background: 'bg-gradient-success',
@@ -89,11 +89,11 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="Sales"
+              title="Presupuesto"
               value="$103,430"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+5%</span> than last month"
+                >+5%</span> Mes pasado"
               :icon="{
                 component: 'ni ni-cart',
                 background: 'bg-gradient-warning',
@@ -108,20 +108,20 @@ const sales = {
             <div class="card z-index-2">
               <gradient-line-chart
                 id="chart-line"
-                title="Sales Overview"
+                title="Vista General Ventas"
                 description="<i class='fa fa-arrow-up text-success'></i>
-      <span class='font-weight-bold'>4% more</span> in 2021"
+      <span class='font-weight-bold'>4% más</span> in 2024"
                 :chart="{
                   labels: [
-                    'Apr',
-                    'May',
-                    'Jun',
-                    'Jul',
-                    'Aug',
-                    'Sep',
-                    'Oct',
-                    'Nov',
-                    'Dec',
+                    'Abril',
+                    'Mayo',
+                    'Junio',
+                    'Julio',
+                    'Agosto',
+                    'Septiembre',
+                    'Octubre',
+                    'Noviembre',
+                    'Deciembre',
                   ],
                   datasets: [
                     {
@@ -142,7 +142,7 @@ const sales = {
             <div class="card">
               <div class="p-3 pb-0 card-header">
                 <div class="d-flex justify-content-between">
-                  <h6 class="mb-2">Sales by Country</h6>
+                  <h6 class="mb-2">Ventas por sede</h6>
                 </div>
               </div>
               <div class="table-responsive">
@@ -156,7 +156,7 @@ const sales = {
                           </div>
                           <div class="ms-4">
                             <p class="mb-0 text-xs font-weight-bold">
-                              Country:
+                              Sede:
                             </p>
                             <h6 class="mb-0 text-sm">{{ sale.country }}</h6>
                           </div>
@@ -164,19 +164,19 @@ const sales = {
                       </td>
                       <td>
                         <div class="text-center">
-                          <p class="mb-0 text-xs font-weight-bold">Sales:</p>
+                          <p class="mb-0 text-xs font-weight-bold">Ventas:</p>
                           <h6 class="mb-0 text-sm">{{ sale.sales }}</h6>
                         </div>
                       </td>
                       <td>
                         <div class="text-center">
-                          <p class="mb-0 text-xs font-weight-bold">Value:</p>
+                          <p class="mb-0 text-xs font-weight-bold">Valor:</p>
                           <h6 class="mb-0 text-sm">{{ sale.value }}</h6>
                         </div>
                       </td>
                       <td class="text-sm align-middle">
                         <div class="text-center col">
-                          <p class="mb-0 text-xs font-weight-bold">Bounce:</p>
+                          <p class="mb-0 text-xs font-weight-bold">Diferencia:</p>
                           <h6 class="mb-0 text-sm">{{ sale.bounce }}</h6>
                         </div>
                       </td>
@@ -194,25 +194,25 @@ const sales = {
                     component: 'ni ni-mobile-button',
                     background: 'dark',
                   },
-                  label: 'Devices',
-                  description: '250 in stock <strong>346+ sold</strong>',
+                  label: 'Dispositivos',
+                  description: '100 en stock <strong>346+ vendidos</strong>',
                 },
                 {
                   icon: {
                     component: 'ni ni-tag',
                     background: 'dark',
                   },
-                  label: 'Tickets',
-                  description: '123 closed <strong>15 open</strong>',
+                  label: 'Mesa de Ayuda',
+                  description: '50 cerradas<strong>15 Abiertas</strong>',
                 },
                 {
                   icon: { component: 'ni ni-box-2', background: 'dark' },
-                  label: 'Error logs',
-                  description: '1 is active <strong>40 closed</strong>',
+                  label: 'Eventos',
+                  description: '1 Activo <strong>40 Cerrados</strong>',
                 },
                 {
                   icon: { component: 'ni ni-satisfied', background: 'dark' },
-                  label: 'Happy Users',
+                  label: 'Usuarios',
                   description: '+ 430',
                 },
               ]"

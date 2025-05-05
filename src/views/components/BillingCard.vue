@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header pb-0 px-3">
-      <h6 class="mb-0">Billing Information</h6>
+      <h6 class="mb-0">Información de facturación</h6>
     </div>
     <div class="card-body pt-4 p-3">
       <ul class="list-group">
@@ -32,11 +32,11 @@
               class="btn btn-link text-danger text-gradient px-3 mb-0"
               href="javascript:;"
             >
-              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Delete
+              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Borrar
             </a>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
               <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i
-              >Edit
+              >Editar
             </a>
           </div>
         </li>
@@ -67,11 +67,11 @@
               class="btn btn-link text-danger text-gradient px-3 mb-0"
               href="javascript:;"
             >
-              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Delete
+              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Borrar
             </a>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
               <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i
-              >Edit
+              >Editar
             </a>
           </div>
         </li>
@@ -102,11 +102,11 @@
               class="btn btn-link text-danger text-gradient px-3 mb-0"
               href="javascript:;"
             >
-              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Delete
+              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Borrar
             </a>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
               <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i
-              >Edit
+              >Editar
             </a>
           </div>
         </li>
